@@ -1,0 +1,106 @@
+:root{
+    --site-color-1: #c13554;
+    --site-color-1-hover: #72081f;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color:#000000;
+}
+h1 {
+    font-size: 2.6rem;
+    line-height: 1.5;
+    color:rgba(109, 131, 81, 0.685) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.6rem;
+    line-height: 1.5;
+    color:rgba(109, 131, 81, 0.685) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2.6rem;
+    line-height: 1.5;
+    color:rgba(109, 131, 81, 0.685) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.75;
+    color:rgb(255, 255, 255) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    font-size: 1.4rem;
+    line-height: 1.75;
+    cursor: pointer;  
+}
+
+.header-main{
+    width: 100%;
+    height: 60px;
+    background-color:#dde6e9;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    position: fixed;
+}
+
+
+.header-main-logo{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    margin-left: 16px;
+    padding-left: 60px ;
+}
+
+.header-main-logo-img{
+    height:30px;
+    align-self: center;
+}
+
+.header-main-nav{
+    width: 120px;
+    height: 100%;
+    width: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-main-nav ul{
+    margin-left: 30px;
+}
+
+.header-main-nav li{
+  display: inline; 
+  float: left; 
+  
+}
+
+.header-main-nav li a{
+    padding: 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 60px;
+    display: block;
+    height: 100%;
+    color:rgb(8, 8, 8);
+}   
+
+.header-main-nav li a:hover{
+    color: #c13554;
+}
+
+
